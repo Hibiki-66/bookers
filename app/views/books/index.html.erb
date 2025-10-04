@@ -8,4 +8,7 @@
   <p>body</p>
   <span><%= book.body %></span>
 
+  <p>show</p>
+  <span><%= link_to show, book_path(book.id) %></span>
+
 <% end %>
